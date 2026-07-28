@@ -1,0 +1,15 @@
+[project]
+name = "cv-utils"
+version = "0.1.0"
+description = "Small, dependency-light computer-vision utilities for dataset preparation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Slava Gaiduk" }]
+dependencies = ["numpy>=1.23"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+addopts = "-q"
