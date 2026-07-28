@@ -1,4 +1,3 @@
-from typing import Tuple
 import numpy as np
 
 
@@ -6,7 +5,7 @@ def crop_to_foreground(
     image: np.ndarray,
     mask: np.ndarray,
     padding: int = 0,
-) -> Tuple[np.ndarray, Tuple[int, int, int, int]]:
+) -> tuple[np.ndarray, tuple[int, int, int, int]]:
     """
     Crop an image to the bounding box of a foreground mask.
 
